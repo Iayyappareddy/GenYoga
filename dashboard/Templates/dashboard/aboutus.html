@@ -1,0 +1,106 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/aboutus.css' %}">
+
+<div class="about-container">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+
+        <div class="hero-text">
+
+            <h1>About GenYoga</h1>
+
+            <p>
+                GenYoga is an AI-powered yoga recommendation
+                platform designed to help users relieve pain,
+                improve flexibility, and build healthy habits
+                through personalized yoga guidance.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- MISSION -->
+    <section class="about-card">
+
+        <h2>Our Mission</h2>
+
+        <p>
+            Our mission is to combine the power of
+            Artificial Intelligence with the healing
+            benefits of yoga to provide personalized
+            wellness support for everyone.
+        </p>
+
+    </section>
+
+    <!-- FEATURES -->
+    <section class="about-card">
+
+        <h2>What GenYoga Offers</h2>
+
+        <div class="feature-grid">
+
+            <div class="feature-box">
+                <h3>AI Recommendations</h3>
+                <p>
+                    Smart yoga pose suggestions
+                    based on user pain descriptions.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <h3>30-Day Course</h3>
+                <p>
+                    Structured yoga journey from
+                    beginner to advanced levels.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Pain Relief Support</h3>
+                <p>
+                    Specialized poses for neck,
+                    knee, and back pain relief.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Interactive Dashboard</h3>
+                <p>
+                    Smooth user experience with
+                    dynamic pose visualization.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TECHNOLOGIES -->
+    <section class="about-card">
+
+        <h2>Technologies Used</h2>
+
+        <div class="tech-list">
+
+            <span>Django</span>
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>SQLite</span>
+
+        </div>
+
+    </section>
+
+</div>
+
+{% endblock %}

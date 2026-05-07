@@ -1,0 +1,64 @@
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* MAIN LAYOUT */
+.results-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* LEFT SIDE */
+.main-pose {
+    flex: 2;
+}
+
+.main-pose h3 {
+    margin-bottom: 10px;
+}
+
+/* IMAGE */
+.image-box {
+    height: fit-content;
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* DETAILS */
+.details {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* RIGHT SIDE */
+.pose-list {
+    flex: 1;
+    overflow-y: auto;
+    height: 500px;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.pose-card {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.pose-card img {
+    width: 100%;
+    border-radius: 10px;
+}
