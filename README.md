@@ -51,7 +51,7 @@ README.md
 ### 1. Clone Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/Iayyappareddy/GenYoga.git
 ```
 
 ---
