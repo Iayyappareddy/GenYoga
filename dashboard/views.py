@@ -11,7 +11,7 @@ def index_view(request):
 @login_required
 def home(request):
     course_days = CouresDay.objects.all().order_by('day')
-    return render(request, 'dashboard\home.html', {
+    return render(request, 'dashboard/home.html', {
         'course_days': course_days
     })
 @login_required
